@@ -33,6 +33,7 @@ data/input/**/*.parquet
 data/input/**/*.feather
 data/input/**/*.h5
 data/input/**/*.hdf5
+data/input/**/*.html
 
 # Keep directory structure but ignore data files
 !data/input/.gitkeep
@@ -45,6 +46,8 @@ data/output/**/*.jpeg
 data/output/**/*.pdf
 data/output/**/*.svg
 data/output/**/*.csv
+data/output/**/*.xlsx
+data/output/**/*.html
 
 # Models (trained models can be large)
 *.pkl
